@@ -1,0 +1,49 @@
+.footer {
+    background: #35322d;
+    margin-top: 0;
+    border-top: 2px solid #ffb03b;
+    padding: 3rem 0;
+    font-family: sans-serif;
+
+    .foot {
+
+        h3 {
+            color: #ffb03b;
+            font-size: 2.3rem;
+            font-weight: 600;
+        }
+        .para{
+            color: white;
+            margin: 1rem 0;
+        }
+        .foot-link {
+            margin: 2.5rem 0;
+
+            a {
+                color: white;
+                background: #46423b;
+                padding: .6rem .75rem;
+                border-radius: 50%;
+                margin-right: .3rem; 
+
+                i{
+                    color: white;
+                }
+            }
+        }
+        .foot-para {
+            color: white;
+            font-size: .9rem;
+            margin-bottom: .3rem;
+
+            .foot-bold{
+                font-weight: 600;
+            }
+
+            .foot-yellow {
+                color: #ffb03b;
+                font-weight: 600;
+            }
+        }
+    }
+}

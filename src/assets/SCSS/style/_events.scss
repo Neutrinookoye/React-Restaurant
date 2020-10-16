@@ -1,0 +1,28 @@
+.event {
+    padding-top: 0.3rem;
+    position: relative;
+    padding-bottom: 3rem;
+    font-family: sans-serif;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba(0,0,0,.7);
+        // height: 100vh;
+    }
+
+    .event-box {
+        background: rgba(255,255,255,.7);
+        padding: 2rem 2rem 3rem 2rem;
+
+        .amount {
+            border-bottom: 2px solid #ffb03b;
+            display: inline-block;
+            font-weight: 600;
+        }
+    }
+}

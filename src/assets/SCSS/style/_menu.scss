@@ -1,0 +1,33 @@
+.menu {
+    font-family: sans-serif;
+    color: #46423b;
+
+    a{
+        color: #46423b;
+        background: transparent;
+        border: 2px solid #ffb03b;
+        border-radius: 2rem;
+        font-size: .9rem;
+        font-weight: 500;
+        margin-right: .7rem;
+        transition: all .5s ease-in-out;
+        margin-bottom: 1rem;
+
+        &:hover {
+            color: white;
+            background: #ffb03b;
+        }
+    }
+    .menu-box {
+        margin-bottom: 1rem;
+        
+        h4 {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: .9rem;
+            font-style: italic;
+        }
+    }
+}

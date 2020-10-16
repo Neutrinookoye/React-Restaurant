@@ -1,0 +1,20 @@
+.gallery {
+    padding: 0 .9rem 3rem .9rem;
+
+    .gall-box {
+        padding: .1rem;
+
+        .gallery-box {
+            overflow: hidden;
+            
+            img{
+                transition: all .6s ease-in-out; 
+    
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+    }
+}
